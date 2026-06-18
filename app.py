@@ -47,7 +47,7 @@ Output:"""
 
         with st.spinner("Searching the cartoon database..."):
             response = client.chat.completions.create(
-                model="meta-llama/llama-3-8b-instruct:free", 
+                model="meta-llama/llama-3-8b-instruct", 
                 messages=[{"role": "user", "content": prompt}]
             )
             
