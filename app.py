@@ -5,7 +5,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 
-engine = create_engine('postgresql://postgres:Mathu%4012345@localhost:5432/Cartoon_Data')
+df = pd.read_csv("Cartoon_datasets.csv")
 
 st.title("Cartoon Data QueryInterface")
 
